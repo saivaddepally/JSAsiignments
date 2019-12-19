@@ -1,0 +1,48 @@
+
+.card{
+background:whitesmoke;
+height:270px;
+width: 250px;
+border:2px solid black;
+margin-bottom: 5px;
+
+
+
+}
+.details{
+    left:750px;
+    height:0px;
+    width:180px;
+    top:20px;
+    font-size: 10px;
+}
+@media(max-width:1200px)
+{
+    #test{
+        display:grid;
+        grid-template-columns :repeat(3,1fr);
+        grid-template-rows: 400px; 
+
+    }
+}
+@media(max-width:800px)
+{
+    #test{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:350px)
+{
+    #test{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.imgdiv{
+    padding:35px;
+
+
+}
+.details{
+    padding:5px;
+    font-size: 10px;
+}
